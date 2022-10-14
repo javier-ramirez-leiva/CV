@@ -1,7 +1,7 @@
 
 function loadLang(PackagePrefix) {
     var text, parser, xmlLangDoc;
-    var node, childNodes; 
+    var node, rootNode,childNodes; 
 
 
     var xhttp = new XMLHttpRequest();
@@ -10,7 +10,8 @@ function loadLang(PackagePrefix) {
         text = xhttp.responseText;
         parser = new DOMParser();
         xmlLangDoc = parser.parseFromString(text,"text/xml");
-        childNodes = xmlLangDoc.children;
+        rootNode = xmlLangDoc.children[0];
+        childNodes = rootNode.children;
         for(var i = 0; i < childNodes.length; i++)
         {
             node = childNodes[i];
@@ -19,7 +20,8 @@ function loadLang(PackagePrefix) {
                 /*$('#'+node.id).animate({
                     'opacity' : 0
                 }, 400, function(){
-                    $(this).html(node.innerHTML).animate({'opacity': 1}, 400);});*/
+                    $(this).html(node.innerHTML).animate({'opacity': 1}, 400);});
+                //$('#'+node.id).text(node.innerHTML);*/
                 textNode.innerText=node.innerHTML
             }else{
                 console.log("Error on Node Id-> " + node.id);
