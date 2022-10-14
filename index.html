@@ -9,16 +9,18 @@
     <!--link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet"-->
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
     <link href="css/simple.css" rel="stylesheet">
-    <script src="scripts/load_language_package.js"></script>
     <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-    <script src="js/core/popper.min.js?ver=1.1.0"></script>
-    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <!--script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="scripts/load_language_package.js"></script>
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -43,13 +45,12 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
-
                 <li class="nav-item dropdown">
-                  <a href="javascript:loadLang();" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="LanguagePicker"">EN</a>
+                  <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="LanguagePicker"">EN</a>
                   <div class="dropdown-menu">
-                      <a href="#" class="dropdown-item">ES</a>
-                      <a href="#" class="dropdown-item">FR</a>
-                      <a href="#" class="dropdown-item">ES</a>
+                      <a href="javascript:loadLang('EN');" class="dropdown-item">EN</a>
+                      <a href="javascript:loadLang('FR');" class="dropdown-item">FR</a>
+                      <a href="javascript:loadLang('ES');" class="dropdown-item">ES</a>
                   </div>
                 </li>
               </ul>
@@ -340,16 +341,16 @@
         <div class="h4 text-center mb-4 title">Projects</div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#ElectricalCatia" role="tablist"><i class="fa-solid fa-bolt" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#PSR-500" role="tablist"><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Air-Cobot" role="tablist"><i class='fa-solid fa-robot' aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#INPCar" role="tablist"><i class="fa-solid fa-car" aria-hidden="true"></i></a></li>
+            <li class="nav-item" role="presentation" ><a class="nav-link active" data-bs-toggle="pill" data-bs-target="#ElectricalCatia" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-bolt" aria-hidden="true"></i></a></li>
+            <li class="nav-item" role="presentation" ><a class="nav-link" data-bs-toggle="pill" data-bs-target="#PSR-500" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i></a></li>
+            <li class="nav-item" role="presentation" ><a class="nav-link" data-bs-toggle="pill" data-bs-target="#Air-Cobot" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class='fa-solid fa-robot' aria-hidden="true"></i></a></li>
+            <li class="nav-item" role="presentation" ><a class="nav-link" data-bs-toggle="pill" data-bs-target="#INPCar" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-car" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="ElectricalCatia">
+      <div class="tab-pane active" id="ElectricalCatia" role="tabpanel">
           <div class="ml-auto mr-auto">
             <h4 class="title"><a href="https://discover.3ds.com/catia-virtual-twin-electrical-systems-design-process-continuity">CATIA-Electrical System Design</a></h4>
             <p> Electrical System Design app inside the 3DExperience portfolio allowing the manage functional and logical architecture of electrical systems. Schematics designs can be automatically generated based on functional requirements.</p>

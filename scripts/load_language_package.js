@@ -1,5 +1,5 @@
 
-function loadLang() {
+function loadLang(PackagePrefix) {
     var text, parser, xmlLangDoc;
     var node, childNodes; 
 
@@ -27,10 +27,10 @@ function loadLang() {
     }
     };
     var languagePicker = document.getElementById("LanguagePicker");
-    var languagePackage = languagePicker.innerText;
+    languagePicker.innerText = PackagePrefix;
     var buttonNode = document.getElementById("DownloadButton");
-    buttonNode.href="pdf/Resume_Javier_Ramirez_"+languagePackage+".pdf";
-    xhttp.open("GET", "language_packages/"+languagePackage+".xml", true);
+    buttonNode.href="pdf/Resume_Javier_Ramirez_"+PackagePrefix+".pdf";
+    xhttp.open("GET", "language_packages/"+PackagePrefix+".xml", true);
     xhttp.send();
 
 }
