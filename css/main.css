@@ -2727,7 +2727,6 @@ body {
     display: block;
     opacity: 0;
     filter: alpha(opacity=0); }
-    */
   .dropdown.show .dropdown-menu, .dropdown-menu.open {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -2735,6 +2734,7 @@ body {
     transform: translate3d(0, 0px, 0); }
   .navbar .dropdown.show .dropdown-menu {
     transform: translate3d(0, 7px, 0); }
+    */
 
 
 .button-dropdown {
