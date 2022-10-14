@@ -3456,7 +3456,10 @@ Created using IcoMoon - icomoon.io
     min-height: 190px; }
   .card .card-body-mini {
     min-height: 50px;
-      margin-left: 20px;}
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
   .card[data-background-color="orange"] {
     background-color: #378C3F; }
   .card[data-background-color="red"] {
@@ -5242,10 +5245,16 @@ Created using IcoMoon - icomoon.io
 .cc-skill .h6 {
   margin-bottom: 0; }
 
+.cc-skill .text-mini-card {
+  justify-content: center;
+}
+
 .cc-skill .cc-skill-header {
-  padding-top: 10px;
   padding-right: 0;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
   color: #fff; }
 
 /* References Style */
