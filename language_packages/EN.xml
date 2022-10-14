@@ -1,1 +1,13 @@
-<Text id="AboutText"> Software engineer, lover of its work and willing to make a difference. I have an international experience in countries such as France and Spain as well as in different domains such as CAD, automotive industry, security and IoT. Currently working for Dassault Systemes in Lyon, France. </Text>
+<Text id="About-Text"> Software engineer, lover of its work and willing to make a difference. I have an international experience in countries such as France and Spain as well as in different domains such as CAD, automotive industry, security and IoT. Currently working for Dassault Systemes in Lyon, France. </Text>
+<Text id="About-Nav">About</Text>
+<Text id="Experience-Nav">Experience</Text>
+<Text id="Education-Nav">Education-Nav</Text>
+<Text id="Skills-Nav">Skills</Text>
+<Text id="Projects-Nav">Projects</Text>
+<Text id="ContactMe-Button">Contact Me</Text>
+<Text id="Download-Button">Download</Text>
+<Text id="SofwareEngineer-Title">Software Engineer</Text>
+<Text id="About-Title">About</Text>
+<Text id="BasicInfo-Title">Basic Information</Text>
+<Text id= id="Language-Text">Spanish, French ,English</Text>
+<Text id= id="Experience-Section">Experience</Text>
