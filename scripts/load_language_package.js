@@ -20,8 +20,8 @@ function loadLang(PackagePrefix) {
                 /*$('#'+node.id).animate({
                     'opacity' : 0
                 }, 400, function(){
-                    $(this).html(node.innerHTML).animate({'opacity': 1}, 400);});
-                //$('#'+node.id).text(node.innerHTML);*/
+                    $(this).html(node.innerHTML).animate({'opacity': 1}, 400);});*/
+                //$('#'+node.id).text(node.innerHTML);
                 textNode.innerText=node.innerHTML
             }else{
                 console.log("Error on Node Id-> " + node.id);

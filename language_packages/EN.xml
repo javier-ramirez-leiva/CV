@@ -16,7 +16,7 @@
     <Text id= "SofwareEngineer-Dassault">Software Engineer</Text>
     <Text id= "Text-Dassault">Electrical System Design app inside the CATIA product of the 3DExperience platform.</Text>
     <Text id= "Text-Dassault_1">C++ development for CAD and PLM applications to design electrical systems on Windows and Linux OS</Text>
-    <Text id= "Text-Dassault_2">CI/CD management. Tools development on python and bash to improve process</Text>
+    <Text id= "Text-Dassault_2">CI/CD management. Tools development in python and bash to improve process</Text>
     <Text id= "Text-Dassault_3">Development of UI elements based on web technologies</Text>
     <Text id= "Text-Dassault_4">Draft of technical software specifications and unit testing planning</Text>
     <Text id= "Text-Dassault_5">Software architecture design focused on re-usability and modules/frameworks</Text>
@@ -27,7 +27,7 @@
     <Text id= "Text-Continental_2">Software development on C/C++ code conforming the AUTOSAR standard</Text>
     <Text id= "Text-Continental_3">Scripting (python and perl) to create automatic tests for validation and non-regression</Text>
     <Text id= "Text-Continental_4">Team management, AKKA for Continental. Technical orientation and support of other employees</Text>
-    <Text id= "Text-Continental_6">Creation of software tools to help with task tracking and planning</Text>
+    <Text id= "Text-Continental_5">Creation of software tools to help with task tracking and planning</Text>
     <Text id= "SofwareEngineer-Collins">Software Engineering Intern</Text>
     <Text id= "Text-Collins">Security application to control cameras using the detections made by the radar FMWC PSR-500</Text>
     <Text id= "Text-Collins_1">C++ development using the QT framework for Windows and Linux OS</Text>
