@@ -20,7 +20,7 @@
     <Text id= "Text-Dassault_3">Development of UI elements based on web technologies</Text>
     <Text id= "Text-Dassault_4">Draft of technical software specifications and unit testing planning</Text>
     <Text id= "Text-Dassault_5">Software architecture design focused on re-usability and modules/frameworks</Text>
-    <Text id= "Text-Dassault_6">Model definition for MBSE engineering</Text>
+    <Text id= "Text-Dassault_6">Model definition for System engineering</Text>
     <Text id= "SoftwareEngineer-Continental">Software Engineer</Text>
     <Text id= "Text-Continental">AKKA Technologies on behalf of Continental Automotive France SAS. ECU software development to control a Direct Injection Engine (E-Power technology for Nissan).</Text>
     <Text id= "Text-Continental_1">Design the system architecture for a real-time application. Focus on software reliability</Text>
