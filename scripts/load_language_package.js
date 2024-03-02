@@ -1,4 +1,14 @@
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    var packageprefix = localStorage.getItem('javier-ramirez-leiva.github.io_PackagePrefix');
+    if(packageprefix!="EN"){
+        var optionLang = document.getElementById("option"+packageprefix);
+        optionLang.click();
+    }
+
+});
+
 function loadLang(PackagePrefix) {
     var text, parser, xmlLangDoc;
     var rootNode,childNodes; 
@@ -45,6 +55,7 @@ function loadLang(PackagePrefix) {
     buttonNode.href="pdf/Resume_Javier_Ramirez_"+PackagePrefix+".pdf";
     xhttp.open("GET", "language_packages/"+PackagePrefix+".xml", true);
     xhttp.send();
+    localStorage.setItem('javier-ramirez-leiva.github.io_PackagePrefix', PackagePrefix);
 
 }
 
